@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
 import { HiOutlineXMark } from 'react-icons/hi2';
-
+import logo from '../../Images/logo.png';
 export const Navlink = [
     {link: '/', linkName: 'Home'},
     {link: '/service', linkName: 'Services'},
@@ -22,7 +22,7 @@ const [sideLink, setSideLink] = useState('left-[-1000px]');
   return(
     <div className="flex md:hidden z-[10] flex-row text-slate-50 fixed top-0 w-full left-0 right-0  px-[20px] py-[10px] justify-between bg-Tp">
         <div>
-            <div className="text-[25px] relative z-[5] font-myfont uppercase"><h1>lorddube</h1></div>
+            <div className=" relative z-[5]  max-w-[70px] rounded-[50px]"><img src={logo} alt="Lorddube lorgistic Energy" className="rounded" /></div>
         </div>
                     <ul className={`flex gap-5 fixed font-fonty top-0 bottom-0 w-[50%] bg-black ${sideLink} transition delay-150 duration-1000 ease-in-out pt-[100px] px-[20px] flex-col`}>
                         {
@@ -30,7 +30,7 @@ const [sideLink, setSideLink] = useState('left-[-1000px]');
                 return(
                         <li >
                             <NavLink  to={links.link} style={({isActive}) => {
-return isActive ? {color: 'yellow', fontWeight: 'bold'} : {}
+return isActive ? {color: 'pink', fontWeight: 'bold'} : {}
 }} className="xl:text-[17px] text-[25px] " >
                              {links.linkName}
                             </NavLink>
