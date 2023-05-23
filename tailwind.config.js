@@ -4,7 +4,18 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'myfont': [ 'Nanum Myeongjo', 'serif'],
+        'fonty': ['Poppins', 'sans-serif']
+      },
+     colors: {  
+        "Tp": "rgba(0, 0, 0, 0.9)",
+        "T": "rgba(0, 0, 0, .8)",
+        "Contact": "rgba(0, 0, 0, .7)",
+        "Icon": "rgba(0, 0, 0, .5)",
+        "details": "rgba(0, 0, 0, .2)",
+      }
   },
   plugins: [],
-}
+}}
