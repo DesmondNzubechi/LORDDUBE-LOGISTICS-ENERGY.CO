@@ -19,7 +19,7 @@ export const DesktopHeader = () => {
          <div>
             <div className=" relative z-[5]  max-w-[70px] rounded-[50px]"><img src={logo} alt="Lorddube lorgistic Energy" className="rounded" /></div>
         </div>
-                    <ul className={`flex gap-5  font-fonty  bg-black  transition delay-150 duration-1000 ease-in-out  px-[20px]  flex-row `}>
+                    <ul className={`flex gap-5  font-fonty  transition delay-150 duration-1000 ease-in-out  px-[20px]  flex-row `}>
                         {
                          Navlink.map(links => {
                 return(

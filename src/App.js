@@ -4,6 +4,9 @@ import { DesktopHeader } from './Components/Header/DesktopHeader';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home } from './Pages/Home/Home';
 import { Footer } from './Components/Footer/Footer';
+import { AboutUs } from './Pages/About/AboutFull';
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +15,7 @@ function App() {
   <MobileHeader/>
   <Routes>
     <Route path='/' element={<Home/>} />
+    <Route path='/about' element={<AboutUs/>} />
   </Routes>
   <Footer/>
     </div>
