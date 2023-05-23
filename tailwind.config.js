@@ -14,7 +14,7 @@ module.exports = {
         "T": "rgba(0, 0, 0, .8)",
         "Contact": "rgba(0, 0, 0, .7)",
         "Icon": "rgba(0, 0, 0, .5)",
-        "details": "rgba(0, 0, 0, .2)",
+        "details": "rgba(0, 0, 0, .3)",
       }
   },
   plugins: [],

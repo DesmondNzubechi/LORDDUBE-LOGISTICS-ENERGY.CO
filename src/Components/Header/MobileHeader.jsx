@@ -20,7 +20,7 @@ const [sideLink, setSideLink] = useState('left-[-1000px]');
 
 
   return(
-    <div className="flex md:hidden flex-row text-slate-50 fixed top-0 w-full left-0 right-0  px-[20px] py-[10px] justify-between bg-Tp">
+    <div className="flex md:hidden z-[10] flex-row text-slate-50 fixed top-0 w-full left-0 right-0  px-[20px] py-[10px] justify-between bg-Tp">
         <div>
             <div className="text-[25px] relative z-[5] font-myfont uppercase"><h1>lorddube</h1></div>
         </div>
