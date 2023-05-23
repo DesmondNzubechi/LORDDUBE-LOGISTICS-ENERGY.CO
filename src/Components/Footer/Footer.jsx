@@ -53,7 +53,7 @@ export const Footer = () => {
        <hr />
       
           <div className="flex md:flex-row flex-col gap-3 items-center justify-around mt-[20px]">
-            <p className="flex flex-row items-center gap-1 text-slate-400 text-[12] md:text-[18px]">Website built by <a className="uppercase font-bold text-white " href="https://home-decor-by-nzubechukwu.vercel.app/">Nzubechukwu</a> </p>
+       {  /*   <p className="flex flex-row items-center gap-1 text-slate-400 text-[12] md:text-[18px]">Website built by <a className="uppercase font-bold text-white " href="https://home-decor-by-nzubechukwu.vercel.app/">Nzubechukwu</a> </p>*/}
             <p className="md:text-[20px] text-[15px] text-slate-400">&copy; Lorddube Logistic Energy.Co 2023</p>
           </div>
         </footer>
