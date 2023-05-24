@@ -19,7 +19,7 @@ export const Overview = () => {
     <h2 className="text-white font-semibold text-[20px] ">
     "We are Lorddube logistic energy.co, your trusted partner for top-of-the-line oil and gas tools. With our unwavering commitment to excellence and a comprehensive range of industry-leading products, we empower businesses in the oil and gas sector to achieve unmatched performance and operational efficiency "
     </h2>
-    <p className="text-slate-200 font-fonty ">At ExcellOil Tools, we understand the critical role that reliable tools play in your operations. That's why we go above and beyond to deliver products of exceptional quality and reliability. Our tools are manufactured using cutting-edge techniques and premium materials, ensuring they can withstand the most challenging environments and deliver consistent performance under demanding conditions.</p>
+    <p className="text-slate-200 font-fonty ">At <strong className="uppercase"> Lorddube Logistic Energy.Co</strong> , we understand the critical role that reliable tools play in your operations. That's why we go above and beyond to deliver products of exceptional quality and reliability. Our tools are manufactured using cutting-edge techniques and premium materials, ensuring they can withstand the most challenging environments and deliver consistent performance under demanding conditions.</p>
     <Link to='/products' className="bg-pink-500 shadow w-fit p-2 text-slate-200 px-[20px] text-[20px] rounded font-myfont">View Products</Link>
 </div>
 <div data-aos='fade-up' aos-data-duration='2000' className="max-w-[500px] ">
