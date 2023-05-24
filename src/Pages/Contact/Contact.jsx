@@ -12,8 +12,8 @@ export const ContactUs = () => {
 
     const form = useRef();
     const sendEmail = (e) => {
-     e.preventDefault();
-      emailjs.sendForm('service_2ijos78', 'template_yocf07d', form.current, 'TN_LogzUsxIiZdUEb')
+    
+      emailjs.sendForm('service_pgxy5jb', 'template_sfxodxm', form.current, 'Tjl45QFmWZjgZGWmL')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
