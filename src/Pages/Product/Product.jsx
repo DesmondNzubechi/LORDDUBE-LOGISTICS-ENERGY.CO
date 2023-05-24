@@ -68,11 +68,11 @@ const OilTools = () => {
             <h1 className="uppercase  font-bold text-[20px] text-slate-900">Oil/Gas Tools</h1>
 <span className="bg-pink-500 h-[5px] rounded-[100%] w-[100px]"></span>
             </div>
-            <div className="grid grid-cols-1 gap-5  md:grid-cols-3 lg:grid-cols-5">
+            <div className="grid grid-cols-2 gap-5  md:grid-cols-3 lg:grid-cols-5">
 {
     oilTools.map(tools => {
         return(
-            <div className="shadow-2xl rounded  md:max-w-[350px] md:max-h-[20px]  ">
+            <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
                 <img src={tools.productImg} className="rounded h-full w-full" alt="" />
                 
             </div>
