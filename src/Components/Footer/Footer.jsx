@@ -39,7 +39,7 @@ export const Footer = () => {
        <h1 className="text-slate-100 font-bold text-[25px]">Contact In<span className="text-pink-500">fomation</span></h1>
          <p className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full font-bold"><GoLocation className="text-[25px] text-slate-50  " /></span> <span className="text-slate-300 text-[15px] ">Porthacourt Nigeria</span></p>
          <p><a href="tel:+2347084183611" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full text-slate-50 font-bold"><FiPhoneCall className="text-[25px]  "/></span> <span className="text-slate-300 text-[15px] ">+234 708 4183 611</span></a></p>
-         <p><a href="mailto:nzubestdesmond@gmail.com" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full font-bold"><AiOutlineMail className="text-[25px] text-slate-50  "/></span> <span className="text-slate-300 text-[15px] ">Info@lorddube.com</span></a></p>
+         <p><a href="mailto:lorddube@gmail.com" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full font-bold"><AiOutlineMail className="text-[25px] text-slate-50  "/></span> <span className="text-slate-300 text-[15px] ">lorddube@gmail.com</span></a></p>
        </div>
 <div className="flex flex-col gap-2">
     <h1 className="text-slate-100 font-bold text-[25px]">Important Links</h1>
@@ -48,7 +48,7 @@ export const Footer = () => {
 <Link to='/about' className="text-slate-300 text-[20px] flex flex-row items-center gap-2 hover:text-slate-500 active:text-sky-500"><BiLink /> About Us</Link>
 <Link  to='/Contact' className="text-slate-300 text-[20px] flex flex-row items-center gap-2 hover:text-slate-500 active:text-sky-500"><BiLink />Contact Us</Link>
 <Link  to='/products' className="text-slate-300 text-[20px] flex flex-row items-center gap-2 hover:text-slate-500 active:text-sky-500"><BiLink />Our Products</Link>
-<Link  to='/servives' className="text-slate-300 text-[20px] flex flex-row items-center gap-2 hover:text-slate-500 active:text-sky-500"><BiLink />Our Services</Link>
+<Link  to='/service' className="text-slate-300 text-[20px] flex flex-row items-center gap-2 hover:text-slate-500 active:text-sky-500"><BiLink />Our Services</Link>
     </div>
 </div>
 <div>
