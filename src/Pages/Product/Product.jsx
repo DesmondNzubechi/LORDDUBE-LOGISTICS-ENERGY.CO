@@ -9,10 +9,39 @@ import oilTools6 from '../../Images/oiltools/IMG-20230524-WA0033.jpg';
 import oilTools7 from '../../Images/oiltools/IMG-20230524-WA0034.jpg';
 import oilTools8 from '../../Images/oiltools/IMG-20230524-WA0035.jpg';
 import oilTools9 from '../../Images/oiltools/WhatsApp Image 2023-05-24 at 07.16.52.jpg';
+import hosePipe1 from '../../Images/hosePipe.avif';
+import hosePipe2 from '../../Images/hosepipe/WhatsApp Image 2023-05-24 at 07.22.07.jpg';
+import hosePipe3 from '../../Images/hosepipe/hose.jpg';
+import hosePipe4 from '../../Images/hosepipe/hose1.jpg';
+import hosePipe5 from '../../Images/hosepipe/hose2.jpg';
+import Instrumentation1 from '../../Images/instrumentation/IMG-20230524-WA0040.jpg';
+import Instrumentation2 from '../../Images/instrumentation/IMG-20230524-WA0041.jpg';
+import Instrumentation3 from '../../Images/instrumentation/IMG-20230524-WA0042.jpg';
+import Instrumentation4 from '../../Images/instrumentation/IMG-20230524-WA0043.jpg';
+import Instrumentation5 from '../../Images/instrumentation/IMG-20230524-WA0044.jpg';
+import Instrumentation6 from '../../Images/instrumentation/IMG-20230524-WA0045.jpg';
+import Instrumentation7 from '../../Images/instrumentation/IMG-20230524-WA0046.jpg';
+import Instrumentation8 from '../../Images/instrumentation/IMG-20230524-WA0048.jpg';
+import Instrumentation9 from '../../Images/instrumentation/IMG-20230524-WA0047.jpg';
+import Instrumentation10 from '../../Images/instrumentation/IMG-20230524-WA0049.jpg';
+import Structural1 from '../../Images/structural/IMG-20230524-WA0050.jpg';
+import Structural2 from '../../Images/structural/IMG-20230524-WA0051.jpg';
+import Structural3 from '../../Images/structural/IMG-20230524-WA0053.jpg';
+import Structural4 from '../../Images/structural/IMG-20230524-WA0054.jpg';
+import safety1 from '../../Images/safety/WhatsApp Image 2023-05-24 at 07.49.52.jpg';
+
+
+
+
+
 import { Link } from "react-router-dom";
 
+const safetyEquip = [safety1];
+const StructuralEquip = [Structural4, Structural3, Structural2, Structural1];
+const  InstrumentationEquip = [Instrumentation1, Instrumentation10, Instrumentation2, Instrumentation3,Instrumentation4, Instrumentation5, Instrumentation6, Instrumentation7, Instrumentation8, Instrumentation9];
+const hosePipeEquip  = [hosePipe1, hosePipe2, hosePipe3, hosePipe4, hosePipe5];
 
-const oilTools = [
+const oilToolsEquip = [
     {
         productName: 'Fitting core',
         productImg : oilTools1,
@@ -70,7 +99,7 @@ const OilTools = () => {
             </div>
             <div className="grid grid-cols-2 gap-5  md:grid-cols-3 lg:grid-cols-5">
 {
-    oilTools.map(tools => {
+    oilToolsEquip.map(tools => {
         return(
             <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
              <a href={tools.productImg}>    <img src={tools.productImg} className="rounded h-full w-full" alt="" /> </a>
@@ -89,17 +118,17 @@ const OilTools = () => {
 const HosePipe = () => {
     return (
         <div>
-            <div className="flex items-center my-[30px] flex-col">
-            <h1 className="uppercase  font-myfont text-[30px] text-slate-900">Hose pipe</h1>
-<span className="bg-pink-500 h-[10px] w-[100px]"></span>
+            <div className="flex items-start my-[30px] flex-col">
+            <h1 className="uppercase  font-bold text-[20px] text-slate-900">Hose Pipe</h1>
+<span className="bg-pink-500 h-[5px] rounded-[100%] w-[100px]"></span>
             </div>
-            <div className="grid grid-cols-2 gap-5  md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid grid-cols-2 gap-5  md:grid-cols-3 lg:grid-cols-5">
 {
-    oilTools.map(tools => {
+    hosePipeEquip.map(tools => {
         return(
-            <div className="shadow-2xl rounded  ">
-                <img src={tools.productImg} className="rounded" alt="" />
-                <h1 className="text-center text-slate-200 rounded-b font-semibold bg-slate-900 ">{tools.productName}</h1>
+            <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
+             <a href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
+                
             </div>
         )
     })
@@ -109,6 +138,7 @@ const HosePipe = () => {
     )
 }
 
+/*
 const Electrical = () => {
     return (
         <div>
@@ -130,22 +160,22 @@ const Electrical = () => {
 </div>
         </div>
     )
-}
+}*/
 
 const Instrumentation = () => {
     return (
         <div>
-            <div className="flex items-center my-[30px] flex-col">
-            <h1 className="uppercase  font-myfont text-[30px] text-slate-900">Instrumentation/ stainless fittings</h1>
-<span className="bg-pink-500 h-[10px] w-[100px]"></span>
+            <div className="flex items-start my-[30px] flex-col">
+            <h1 className="uppercase  font-bold text-[20px] text-slate-900">Instrumentation/stainless fittings</h1>
+<span className="bg-pink-500 h-[5px] rounded-[100%] w-[100px]"></span>
             </div>
-            <div className="grid grid-cols-2 gap-5  md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid grid-cols-2 gap-5  md:grid-cols-3 lg:grid-cols-5">
 {
-    oilTools.map(tools => {
+    InstrumentationEquip.map(tools => {
         return(
-            <div className="shadow-2xl rounded  ">
-                <img src={tools.productImg} className="rounded" alt="" />
-                <h1 className="text-center text-slate-200 rounded-b font-semibold bg-slate-900 ">{tools.productName}</h1>
+            <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
+             <a href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
+                
             </div>
         )
     })
@@ -158,17 +188,17 @@ const Instrumentation = () => {
 const Structural = () => {
     return (
         <div>
-            <div className="flex items-center my-[30px] flex-col">
-            <h1 className="uppercase  font-myfont text-[30px] text-slate-900">Structural steel plates, pipe, H- Beam, Angel Iron</h1>
-<span className="bg-pink-500 h-[10px] w-[100px]"></span>
+            <div className="flex items-start my-[30px] flex-col">
+            <h1 className="uppercase  font-bold text-[20px] text-slate-900">Structural Steel Plate</h1>
+<span className="bg-pink-500 h-[5px] rounded-[100%] w-[100px]"></span>
             </div>
-            <div className="grid grid-cols-2 gap-5  md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid grid-cols-2 gap-5  md:grid-cols-3 lg:grid-cols-5">
 {
-    oilTools.map(tools => {
+    StructuralEquip.map(tools => {
         return(
-            <div className="shadow-2xl rounded  ">
-                <img src={tools.productImg} className="rounded" alt="" />
-                <h1 className="text-center text-slate-200 rounded-b font-semibold bg-slate-900 ">{tools.productName}</h1>
+            <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
+             <a href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
+                
             </div>
         )
     })
@@ -181,17 +211,17 @@ const Structural = () => {
 const SafetyFab = () => {
     return (
         <div>
-            <div className="flex items-center my-[30px] flex-col">
-            <h1 className="uppercase  font-myfont text-[30px] text-slate-900">Safety fabrications & Construction</h1>
-<span className="bg-pink-500 h-[10px] w-[100px]"></span>
+            <div className="flex items-start my-[30px] flex-col">
+            <h1 className="uppercase  font-bold text-[20px] text-slate-900">Safety Equipments</h1>
+<span className="bg-pink-500 h-[5px] rounded-[100%] w-[100px]"></span>
             </div>
-            <div className="grid grid-cols-2 gap-5  md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid grid-cols-2 gap-5  md:grid-cols-3 lg:grid-cols-5">
 {
-    oilTools.map(tools => {
+    safetyEquip.map(tools => {
         return(
-            <div className="shadow-2xl rounded  ">
-                <img src={tools.productImg} className="rounded" alt="" />
-                <h1 className="text-center text-slate-200 rounded-b font-semibold bg-slate-900 ">{tools.productName}</h1>
+            <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
+             <a href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
+                
             </div>
         )
     })
@@ -219,7 +249,7 @@ export const OurProducts = () => {
             <div className="my-[50px] flex-col justify-center gap-5">
             <OilTools/>
             <HosePipe/>
-            <Electrical/>
+
             <Instrumentation/>
             <Structural/>
             <SafetyFab/>
