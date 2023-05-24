@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
 import { HiOutlineXMark } from 'react-icons/hi2';
 import logo from '../../Images/logo.png';
@@ -17,7 +17,7 @@ export const DesktopHeader = () => {
   return(
     <div className="hidden md:flex z-[10] flex-row text-slate-50 fixed top-0 w-full left-0 right-0  px-[50px] py-[10px] justify-between bg-Tp">
          <div>
-            <div className=" relative z-[5]  max-w-[70px] rounded-[50px]"><img src={logo} alt="Lorddube lorgistic Energy" className="rounded" /></div>
+            <Link to='/' className=" relative z-[5]  max-w-[70px] rounded-[50px]"><img src={logo} alt="Lorddube lorgistic Energy" className="rounded max-w-[70px]" /></Link>
         </div>
                     <ul className={`flex gap-5  font-fonty  transition delay-150 duration-1000 ease-in-out  px-[20px]  flex-row `}>
                         {

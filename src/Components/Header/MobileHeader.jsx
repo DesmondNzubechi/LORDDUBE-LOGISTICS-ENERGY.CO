@@ -23,7 +23,7 @@ const [sideLink, setSideLink] = useState('left-[-1000px]');
   return(
     <div className="flex md:hidden z-[10] flex-row text-slate-50 fixed top-0 w-full left-0 right-0  px-[20px] py-[10px] justify-between bg-Tp">
         <div>
-            <div className=" relative z-[5]  max-w-[70px] rounded-[50px]"><img src={logo} alt="Lorddube lorgistic Energy" className="rounded" /></div>
+            <Link to='/' className=" relative z-[5]  max-w-[70px] rounded-[50px]"><img src={logo} alt="Lorddube lorgistic Energy" className="rounded max-w-[70px]" /></Link>
         </div>
        { /*<ul className="absolute w-[60%] left-4 z-[5] top-[305px] shadow-2xl bg-black border-slate-900 border px-[20px] flex flex-col gap-2 py-[20px] rounded ">
             <li><Link className="text-[11px] text-slate-200 font-bold uppercase w-full  ">Oil tools</Link></li>
