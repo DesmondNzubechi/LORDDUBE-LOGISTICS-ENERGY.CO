@@ -7,13 +7,14 @@ import { TfiWorld } from 'react-icons/tfi';
 import { BsTwitter } from 'react-icons/bs';
 import { BiLink } from 'react-icons/bi';
 import { Link } from "react-router-dom";
+import logo from '../../Images/logo.png';
 
 export const Footer = () => {
     return (
         <footer className="bg-slate-900 p-5">
             <div className="flex flex-col md:flex-row gap-2 justify-between">
             <div className="flex flex-col gap-2">
-       <h1 className="text-slate-100 font-myfont text-[25px]">LordDube Logistic Energy.Co</h1>
+      <img src={logo} alt="" className="max-w-[150px]" srcset="" />
          <p className="text-slate-200 text-[17px] pt-[20px] max-w-[400px]">Our team of experts is comprised of seasoned professionals with extensive knowledge and experience in the oil and gas sector. They are always ready to assist you in finding the right tools for your specific needs. Whether you require advice on selecting the ideal equipment, assistance with technical specifications, or guidance on industry best practices, our knowledgeable staff is here to support you every step of the way.
 
          {/*

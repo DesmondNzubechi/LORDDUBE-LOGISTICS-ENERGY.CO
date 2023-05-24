@@ -11,7 +11,8 @@ export const OurClient = () => {
     const clientLogo = [client1, client2, client3, client4]
 
     return(
-        <div className="py-[50px] flex rounded-t-[50px] bg-slate-700 mt-[-50px] flex-row justify-center p-[20px] ">
+        <div className="bg-slate-50 py-[20px] ">
+        <div className="py-[50px]  mb-[20px] shadow-2xl  flex rounded-[20px] bg-Tp my-[20px] mt-[-50px] flex-row justify-center p-[20px] ">
           <div>
           <h1 className="uppercase text-center my-[40px] font-myfont text-[20px] text-slate-50  md:text-[40px] ">Our Clients</h1>
 
@@ -25,6 +26,7 @@ export const OurClient = () => {
            }
           </div>
           </div>
+        </div>
         </div>
     )
 }
