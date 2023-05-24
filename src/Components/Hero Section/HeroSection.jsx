@@ -6,9 +6,17 @@ import bgImg4 from '../../Images/bg4.avif';
 import bgImg5 from '../../Images/bg5.avif';
 import bgImg6 from '../../Images/bg6.avif';
 import bgImg7 from '../../Images/bg7.avif';
+import bgImg8 from '../../Images/bg8.jpg';
+import bgImg9 from '../../Images/bg9.jpg';
+import bgImg10 from '../../Images/bg10.jpg';
+import bgImg11 from '../../Images/bg11.avif';
+import bgImg12 from '../../Images/saftey.avif';
+import bgImg13 from '../../Images/instrumentation2.avif';
+
+
 import { Link } from "react-router-dom";
 
-const HeroArray = [ bgImg1, bgImg2, bgImg3, bgImg4, bgImg5, bgImg6, bgImg7]
+const HeroArray = [ bgImg1, bgImg2, bgImg3, bgImg4, bgImg5, bgImg6, bgImg7, bgImg8, bgImg9, bgImg10, bgImg11, bgImg12, bgImg13]
 
 export const HeroSection = () => {
     const [currentImage, setCurrentImage] = useState(0);

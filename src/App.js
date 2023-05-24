@@ -8,12 +8,15 @@ import { AboutUs } from './Pages/About/AboutFull';
 import { ContactUs } from './Pages/Contact/Contact';
 import { Services } from './Pages/Services/Services';
 import { OurProducts } from './Pages/Product/Product';
+import ScrollToTop from './Components/scrollToTop/ScrollTop';
+
 function App() {
   return (
     <BrowserRouter>
  <div className="App">
   <DesktopHeader/>
   <MobileHeader/>
+  <ScrollToTop/>
   <Routes>
     <Route path='/' element={<Home/>} />
     <Route path='/about' element={<AboutUs/>} />
@@ -21,6 +24,7 @@ function App() {
     <Route path='/service' element={<Services/>} />
     <Route path='/products' element={<OurProducts/>} />
   </Routes>
+  
   <Footer/>
     </div>
     </BrowserRouter>

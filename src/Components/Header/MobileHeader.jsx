@@ -33,11 +33,17 @@ const [sideLink, setSideLink] = useState('left-[-1000px]');
             <li><Link className="text-[11px] text-slate-200 font-bold uppercase w-full  ">Structural steel plates, pipe, H- Beam, Ang</Link></li>
             <li><Link className="text-[11px] text-slate-200 font-bold uppercase w-full  ">Safety fabrications & Construction</Link></li>
   </ul>*/}
-                    <ul className={`flex gap-5 fixed font-fonty top-0 bottom-0 w-[80%] bg-black ${sideLink} transition delay-150 duration-1000 ease-in-out pt-[100px] px-[20px] flex-col`}>
+                    <ul className={`flex gap-5 fixed font-fonty top-0 bottom-0 w-[50%] bg-black ${sideLink} transition delay-150 duration-1000 ease-in-out pt-[100px] px-[20px] flex-col`}>
                         {
                          Navlink.map(links => {
                 return(
-                        <li >
+                        <li  onClick={() => {
+                            setIcons({
+                                hideicon: false,
+                                showIcon: true,
+                            });
+                            setSideLink('left-[-1000px]')
+                        }} >
                             <NavLink  to={links.link} style={({isActive}) => {
 return isActive ? {color: 'pink', fontWeight: 'bold'} : {}
 }} className="xl:text-[17px] text-[25px] " >
