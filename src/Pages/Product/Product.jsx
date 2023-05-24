@@ -73,7 +73,7 @@ const OilTools = () => {
     oilTools.map(tools => {
         return(
             <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
-                <img src={tools.productImg} className="rounded h-full w-full" alt="" />
+             <a href={tools.productImg}>    <img src={tools.productImg} className="rounded h-full w-full" alt="" /> </a>
                 
             </div>
         )
