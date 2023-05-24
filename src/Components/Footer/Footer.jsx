@@ -12,10 +12,13 @@ import logo from '../../Images/logo.png';
 export const Footer = () => {
     return (
         <footer className="bg-slate-900 p-5">
-            <div className="flex flex-col md:flex-row gap-2 justify-between">
-            <div className="flex flex-col gap-2">
-      <img src={logo} alt="" className="max-w-[150px]" srcset="" />
-         <p className="text-slate-200 text-[17px] pt-[20px] max-w-[400px]">Our team of experts is comprised of seasoned professionals with extensive knowledge and experience in the oil and gas sector. They are always ready to assist you in finding the right tools for your specific needs. Whether you require advice on selecting the ideal equipment, assistance with technical specifications, or guidance on industry best practices, our knowledgeable staff is here to support you every step of the way.
+            <div className="flex flex-col items-start md:flex-row gap-2 justify-between">
+            <div className="flex flex-col md:items-end md:flex-row gap-2">
+              <div className=" rounded max-w-[150px] " >
+              <img src={logo} alt="" className=" rounded " srcset="" />
+              </div>
+              <div>
+         <p className="text-slate-200 text-[12px] pt-[20px] max-w-[400px]">Our team of experts is comprised of seasoned professionals with extensive knowledge and experience in the oil and gas sector. They are always ready to assist you in finding the right tools for your specific needs. Whether you require advice on selecting the ideal equipment, assistance with technical specifications, or guidance on industry best practices, our knowledgeable staff is here to support you every step of the way.
 
          {/*
               <div>
@@ -30,6 +33,7 @@ export const Footer = () => {
                 </div>
                 </div>*/}
              </p>
+             </div>
          </div>
                 <div className="flex flex-col gap-2">
        <h1 className="text-slate-100 font-bold text-[25px]">Contact In<span className="text-pink-500">fomation</span></h1>
