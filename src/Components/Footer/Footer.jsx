@@ -18,7 +18,7 @@ export const Footer = () => {
               <img src={logo} alt="" className=" rounded " srcset="" />
               </div>
               <div>
-         <p className="text-slate-200 text-[12px] pt-[20px] max-w-[400px]">Our team of experts is comprised of seasoned professionals with extensive knowledge and experience in the oil and gas sector. They are always ready to assist you in finding the right tools for your specific needs. Whether you require advice on selecting the ideal equipment, assistance with technical specifications, or guidance on industry best practices, our knowledgeable staff is here to support you every step of the way.
+         <p className="text-slate-200 text-[12px] pt-[20px] max-w-[400px]">Our team of experts is comprised of seasoned professionals with extensive knowledge and experience in the oil and gas sector. They are always ready to assist you in finding the right tnools for your specific needs. Whether you require advice on selecting the ideal equipment, assistance with technical specifications, or guidance on industry best practices, our knowledgeable staff is here to support you every step of the way.
 
          {/*
               <div>
