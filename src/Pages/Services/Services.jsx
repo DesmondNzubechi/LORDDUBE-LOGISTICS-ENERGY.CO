@@ -70,8 +70,8 @@ export const Services = () => {
         <img src={services.img} className="rounded" alt="" />
      </div>
      <div className="flex flex-col gap-1">
-        <h1 className=" font-bold uppercase text-slate-900 text-[17px] md:text-[25px]  ">{services.heading}</h1>
-        <p className="text-slate-700 text-[15px] md:text-[20px] font-fonty ">{services.description}</p>
+        <h1 className=" font-bold uppercase text-slate-900 text-[15px] md:text-[20px] lg:text-[25px]  ">{services.heading}</h1>
+        <p className="text-slate-700 text-[15px] md:text-[17px] lg:text-[20px] font-fonty ">{services.description}</p>
      </div>
     </div>
         )

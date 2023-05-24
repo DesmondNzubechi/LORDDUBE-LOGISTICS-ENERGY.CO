@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
 import { HiOutlineXMark } from 'react-icons/hi2';
 import logo from '../../Images/logo.png';
@@ -24,7 +24,15 @@ const [sideLink, setSideLink] = useState('left-[-1000px]');
         <div>
             <div className=" relative z-[5]  max-w-[70px] rounded-[50px]"><img src={logo} alt="Lorddube lorgistic Energy" className="rounded" /></div>
         </div>
-                    <ul className={`flex gap-5 fixed font-fonty top-0 bottom-0 w-[50%] bg-black ${sideLink} transition delay-150 duration-1000 ease-in-out pt-[100px] px-[20px] flex-col`}>
+        <ul className="absolute left-5 z-[5] top-[305px] shadow-2xl bg-slate-800 px-[20px] flex flex-col gap-2 py-[20px] rounded ">
+            <li><Link className="text-[13px] text-slate-200 font-bold uppercase w-full  ">Oil tools</Link></li>
+            <li><Link className="text-[13px] text-slate-200 font-bold uppercase w-full  "> Hose pipe</Link></li>
+            <li><Link className="text-[13px] text-slate-200 font-bold uppercase w-full  ">Electrical equipment</Link></li>
+            <li><Link className="text-[13px] text-slate-200 font-bold uppercase w-full  ">Instrumentation/ stainless fittings</Link></li>
+            <li><Link className="text-[13px] text-slate-200 font-bold uppercase w-full  ">Structural steel plates, pipe, H- Beam, Ang</Link></li>
+            <li><Link className="text-[13px] text-slate-200 font-bold uppercase w-full  ">Safety fabrications & Construction</Link></li>
+        </ul>
+                    <ul className={`flex gap-5 fixed font-fonty top-0 bottom-0 w-[80%] bg-black ${sideLink} transition delay-150 duration-1000 ease-in-out pt-[100px] px-[20px] flex-col`}>
                         {
                          Navlink.map(links => {
                 return(
