@@ -1,5 +1,5 @@
 import React from "react";
-import abtimg from '../../Images/bg2.avif';
+import abtimg from '../../Images/oiltools/logo.jpg';
 import { Link } from "react-router-dom";
 export const AboutHome = () => {
     return(
@@ -11,7 +11,7 @@ export const AboutHome = () => {
             <Link to='/about' className="bg-slate-900 w-fit px-5 p-2 text-slate-50 rounded shadow-2xl hover:bg-pink-500 text-[20px]">Read More</Link>
         </div>
         <div className="max-w-[600px]">
-            <img src={abtimg} alt="" className="rounded" />
+            <img src={abtimg} alt="" className="rounded-[20px]" />
         </div>
         </div>
     )

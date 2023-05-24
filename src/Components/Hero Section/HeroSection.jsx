@@ -12,7 +12,8 @@ import bgImg10 from '../../Images/bg10.jpg';
 import bgImg11 from '../../Images/bg11.avif';
 import bgImg12 from '../../Images/saftey.avif';
 import bgImg13 from '../../Images/instrumentation2.avif';
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import { Link } from "react-router-dom";
 
@@ -28,9 +29,17 @@ export const HeroSection = () => {
   
       return () => clearInterval(interval);
     }, []);
+
+
+
+
+    useEffect(function () {
+      Aos.init({ duration: 1000 });
+    }, []);
+
     return(
         <div>
-      <div 
+      <div data-aos='fade-up' aos-data-duration='2000'
         style={{ backgroundImage: `url(${HeroArray[currentImage]})` }}
       className={`min-h-[100vh] relative after:left-0 after:right-0 after:absolute after:top-0 after:h-full flex items-center after:w-full after:bg-Icon  px-[30px] bg-cover z-[1]  `}>
         <div className="max-w-[700px] relative z-[5] flex flex-col gap-3 ">

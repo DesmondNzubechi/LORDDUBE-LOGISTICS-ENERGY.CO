@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useEffect} from "react";
 import serviceBg from '../../Images/saftey.avif';
 import oiltools from '../../Images/bg2.avif';
 import hosePipe from   '../../Images/hosePipe.avif';
@@ -6,6 +6,8 @@ import electical from   '../../Images/electrical.avif';
 import fitting from   '../../Images/instrumentation2.avif';
 import structuralSteelPlate from   '../../Images/Structural pipe.avif';
 import saftey from   '../../Images/saftey.avif';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const  servicesArray = [
     {
@@ -49,9 +51,13 @@ const  servicesArray = [
 
 
 export const Services = () => {
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
+
     return(
         <div className="min-h-[100vh] ">
-             <div 
+             <div  data-aos='fade-up' aos-data-duration='2000'
         style={{ backgroundImage: `url(${serviceBg})` }}
       className={`min-h-[50vh] relative after:left-0 after:right-0 after:absolute after:top-0 after:h-full bg-center flex items-center after:w-full after:bg-Contact pt-[50px]  px-[30px] bg-cover z-[1]  `}>
         <div className="relative z-[1] py-[50px] max-w-[700px]">
@@ -65,11 +71,11 @@ export const Services = () => {
 {
     servicesArray.map(services => {
         return(
-            <div className="grid md:grid-cols-2 items-center grid-cols-1 gap-4">
-     <div className="max-w-[500px]">
+            <div  className="grid md:grid-cols-2 items-center grid-cols-1 gap-4">
+     <div data-aos='fade-up' aos-data-duration='2000' className="max-w-[500px]">
         <img src={services.img} className="rounded" alt="" />
      </div>
-     <div className="flex flex-col gap-1">
+     <div data-aos='fade-up' aos-data-duration='2000' className="flex flex-col gap-1">
         <h1 className=" font-bold uppercase text-slate-900 text-[15px] md:text-[20px] lg:text-[25px]  ">{services.heading}</h1>
         <p className="text-slate-700 text-[15px] md:text-[17px] lg:text-[20px] font-fonty ">{services.description}</p>
      </div>

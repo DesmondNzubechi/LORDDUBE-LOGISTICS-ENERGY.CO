@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
 import { HiOutlineXMark } from 'react-icons/hi2';
 import {IoMdArrowDropdown} from 'react-icons/io';
-import logo from '../../Images/logo.png';
+import logo from '../../Images/oiltools/logo.jpg';
 export const Navlink = [
     {link: '/', linkName: 'Home'},
     {link: '/service', linkName: 'Services'},

@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useEffect} from "react";
 import abtimg from '../../Images/bg2.avif';
 import oilTools1 from '../../Images/oiltools/IMG-20230524-WA0027.jpg';
 import oilTools2 from '../../Images/oiltools/IMG-20230524-WA0029.jpg';
@@ -29,8 +29,8 @@ import Structural2 from '../../Images/structural/IMG-20230524-WA0051.jpg';
 import Structural3 from '../../Images/structural/IMG-20230524-WA0053.jpg';
 import Structural4 from '../../Images/structural/IMG-20230524-WA0054.jpg';
 import safety1 from '../../Images/safety/WhatsApp Image 2023-05-24 at 07.49.52.jpg';
-
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 
@@ -90,9 +90,14 @@ const oilToolsEquip = [
 
 ]
 
+
 const OilTools = () => {
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
+    
     return (
-        <div>
+        <div data-aos='fade-up' aos-data-duration='2000'>
             <div className="flex items-start my-[30px] flex-col">
             <h1 className="uppercase  font-bold text-[20px] text-slate-900">Oil/Gas Tools</h1>
 <span className="bg-pink-500 h-[5px] rounded-[100%] w-[100px]"></span>
@@ -101,8 +106,8 @@ const OilTools = () => {
 {
     oilToolsEquip.map(tools => {
         return(
-            <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
-             <a href={tools.productImg}>    <img src={tools.productImg} className="rounded h-full w-full" alt="" /> </a>
+            <div data-aos='fade-up' aos-data-duration='2000' className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
+             <a data-aos='fade-up' aos-data-duration='2000' href={tools.productImg}>    <img src={tools.productImg} className="rounded h-full w-full" alt="" /> </a>
                 
             </div>
         )
@@ -116,8 +121,12 @@ const OilTools = () => {
 
 
 const HosePipe = () => {
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
+    
     return (
-        <div>
+        <div data-aos='fade-up' aos-data-duration='2000'>
             <div className="flex items-start my-[30px] flex-col">
             <h1 className="uppercase  font-bold text-[20px] text-slate-900">Hose Pipe</h1>
 <span className="bg-pink-500 h-[5px] rounded-[100%] w-[100px]"></span>
@@ -126,8 +135,8 @@ const HosePipe = () => {
 {
     hosePipeEquip.map(tools => {
         return(
-            <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
-             <a href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
+            <div data-aos='fade-up' aos-data-duration='2000' className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
+             <a data-aos='fade-up' aos-data-duration='2000' href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
                 
             </div>
         )
@@ -163,8 +172,12 @@ const Electrical = () => {
 }*/
 
 const Instrumentation = () => {
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
+    
     return (
-        <div>
+        <div data-aos='fade-up' aos-data-duration='2000'>
             <div className="flex items-start my-[30px] flex-col">
             <h1 className="uppercase  font-bold text-[20px] text-slate-900">Instrumentation/stainless fittings</h1>
 <span className="bg-pink-500 h-[5px] rounded-[100%] w-[100px]"></span>
@@ -173,8 +186,8 @@ const Instrumentation = () => {
 {
     InstrumentationEquip.map(tools => {
         return(
-            <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
-             <a href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
+            <div data-aos='fade-up' aos-data-duration='2000' className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
+             <a data-aos='fade-up' aos-data-duration='2000' href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
                 
             </div>
         )
@@ -186,8 +199,12 @@ const Instrumentation = () => {
 }
 
 const Structural = () => {
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
+    
     return (
-        <div>
+        <div data-aos='fade-up' aos-data-duration='2000'>
             <div className="flex items-start my-[30px] flex-col">
             <h1 className="uppercase  font-bold text-[20px] text-slate-900">Structural Steel Plate</h1>
 <span className="bg-pink-500 h-[5px] rounded-[100%] w-[100px]"></span>
@@ -196,8 +213,8 @@ const Structural = () => {
 {
     StructuralEquip.map(tools => {
         return(
-            <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
-             <a href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
+            <div data-aos='fade-up' aos-data-duration='2000' className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
+             <a data-aos='fade-up' aos-data-duration='2000' href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
                 
             </div>
         )
@@ -209,8 +226,12 @@ const Structural = () => {
 }
 
 const SafetyFab = () => {
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
+    
     return (
-        <div>
+        <div data-aos='fade-up' aos-data-duration='2000'>
             <div className="flex items-start my-[30px] flex-col">
             <h1 className="uppercase  font-bold text-[20px] text-slate-900">Safety Equipments</h1>
 <span className="bg-pink-500 h-[5px] rounded-[100%] w-[100px]"></span>
@@ -219,8 +240,8 @@ const SafetyFab = () => {
 {
     safetyEquip.map(tools => {
         return(
-            <div className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
-             <a href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
+            <div data-aos='fade-up' aos-data-duration='2000' className="shadow-2xl rounded  max-w-[350px] max-h-[250px]  ">
+             <a data-aos='fade-up' aos-data-duration='2000' href={tools}>    <img src={tools} className="rounded h-full w-full" alt="" /> </a>
                 
             </div>
         )
@@ -237,9 +258,13 @@ const SafetyFab = () => {
 
 
 export const OurProducts = () => {
+    useEffect(function () {
+        Aos.init({ duration: 1000 });
+      }, []);
+    
     return(
         <div className="bg-gradient-to-b shadow-2xl   items-center justify-around  md:flex-row px-[30px] py-[100px] lg:min-h-[100vh] from-slate-50 rounded-t-[50px]  to-slate-50">
-          <div className="flex flex-col">
+          <div data-aos='fade-up' aos-data-duration='2000' className="flex flex-col">
             <h1 className="uppercase font-myfont text-[30px] text-slate-900">Our products</h1>
 <span className="bg-pink-500 h-[10px] w-[100px]"></span>
 <p className="md:text-[20px] text-[15px] my-[20px] max-w-[700px] text-slate-700 ">Quality is at the core of everything we do. We partner with renowned manufacturers and suppliers to ensure that our customers receive products of exceptional quality. We rigorously test and inspect each tool to guarantee its reliability, durability, and compliance with industry standards.</p>
