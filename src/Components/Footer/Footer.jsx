@@ -1,4 +1,4 @@
-import React from "react";
+import {React, useEffect} from "react";
 import { GoLocation } from 'react-icons/go';
 import { AiOutlineMail, AiFillLinkedin, AiFillInstagram, AiOutlineGithub, AiTwotoneHeart } from 'react-icons/ai';
 import { FiPhoneCall, FiExternalLink } from 'react-icons/fi';
@@ -8,10 +8,18 @@ import { BsTwitter } from 'react-icons/bs';
 import { BiLink } from 'react-icons/bi';
 import { Link } from "react-router-dom";
 import logo from '../../Images/logo.png';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 export const Footer = () => {
+
+  useEffect(function () {
+    Aos.init({ duration: 1000 });
+  }, []);
+
     return (
-        <footer className="bg-slate-900 p-5">
+        <footer  className="bg-slate-900 p-5">
             <div className="flex flex-col items-start md:flex-row gap-2 justify-between">
             <div className="flex flex-col md:items-end md:flex-row gap-2">
               <div className=" rounded max-w-[150px] " >
