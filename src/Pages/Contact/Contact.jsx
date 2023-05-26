@@ -37,9 +37,8 @@ export const ContactUs = () => {
          <p><a href="tel:+2347068622370" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full text-slate-50 font-bold"><BiPhoneCall className="text-[30px]  "/></span> <span className="text-slate-300 font-bold text-[17px] ">+234 706 8622 370</span></a></p>
          <p><a href="mailto:lorddube@gmail.com" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full font-bold"><HiOutlineMail className="text-[25px] text-slate-50  "/></span> <span className="text-slate-300 font-bold text-[15px] ">lorddube@gmail.com</span></a></p>
        </div>
-         
-          <iframe className="md:max-w-[700px]  rounded w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.7495896853366!2d7.007749473817494!3d4.813004040676176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cc2ba5c89d31%3A0x5b47ec7122ab5d27!2s132%2C%20148%20Port%20Harcourt%20-%20Aba%20Expy%2C%20Rumukalagba%20500101%2C%20Port%20Harcourt%2C%20Rivers!5e0!3m2!1sen!2sng!4v1684877524070!5m2!1sen!2sng"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       
+       <iframe className="md:max-w-[700px]  rounded w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.7231209636598!2d7.007227473817467!3d4.817532140636071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cdd4e3fda7bb%3A0x150631f09b02fe8d!2s132%2C%20144%20Aba%20Rd%2C%20Umueme%20500101%2C%20Port%20Harcourt%2C%20Rivers!5e0!3m2!1sen!2sng!4v1685062338398!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
           </div>
           <div data-aos='fade-up' aos-data-duration='2000'>
             <h1 className="my-[10px] text-[25px] font-myfont   ">Get In Touch With Us</h1>
