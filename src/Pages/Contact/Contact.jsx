@@ -33,7 +33,7 @@ export const ContactUs = () => {
             
         <div data-aos='fade-up' aos-data-duration='2000' className="my-[50px]  flex md:flex-row flex-col  gap-0">
         <div className="flex flex-col py-[50px] px-[20px] rounded  bg-slate-900 gap-2">
-         <p className="flex flex-row items-center  gap-3 my-2"><span className=" p-2 rounded-full font-bold"><BiCurrentLocation className="text-[30px] text-slate-50  " /></span> <span className="text-slate-300 font-bold capitalize text-[15px] ">132/148 ABA express way Porthacourt Nigeria</span></p>
+         <p className="flex flex-row items-center  gap-3 my-2"><span className=" p-2 rounded-full font-bold"><BiCurrentLocation className="text-[30px] text-slate-50  " /></span> <span className="text-slate-300 font-bold capitalize text-[15px] ">132/144 ABA express way Porthacourt Nigeria</span></p>
          <p><a href="tel:+2347068622370" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full text-slate-50 font-bold"><BiPhoneCall className="text-[30px]  "/></span> <span className="text-slate-300 font-bold text-[17px] ">+234 706 8622 370</span></a></p>
          <p><a href="mailto:lorddube@gmail.com" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full font-bold"><HiOutlineMail className="text-[25px] text-slate-50  "/></span> <span className="text-slate-300 font-bold text-[15px] ">lorddube@gmail.com</span></a></p>
        </div>

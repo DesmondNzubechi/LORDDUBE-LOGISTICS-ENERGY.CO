@@ -62,7 +62,7 @@ export const Services = () => {
       className={`min-h-[50vh] relative after:left-0 after:right-0 after:absolute after:top-0 after:h-full bg-center flex items-center after:w-full after:bg-Contact pt-[50px]  px-[30px] bg-cover z-[1]  `}>
         <div className="relative z-[1] py-[50px] max-w-[700px]">
         <h1 className="font-bold text-slate-50 text-[50px] ">Services</h1>
-<p className="text-slate-200 font-fonty text-[17px] ">Welcome to Lorddube Logistic Energy, Co! We are a trusted provider of various products and services to cater to the needs of industries such as oil and gas, construction, and more. Allow me to introduce you to our range of services:</p>
+<p className="text-slate-200 font-fonty text-[17px] ">Welcome to Lorddube Logistics Energy, Co! We are a trusted provider of various products and services to cater to the needs of industries such as oil and gas, construction, and more. Allow me to introduce you to our range of services:</p>
         </div>
 
       </div>

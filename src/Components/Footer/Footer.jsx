@@ -45,7 +45,7 @@ export const Footer = () => {
          </div>
                 <div className="flex flex-col gap-2">
        <h1 className="text-slate-100 font-bold text-[25px]">Contact In<span className="text-pink-500">fomation</span></h1>
-         <p className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full font-bold"><GoLocation className="text-[25px] text-slate-50  " /></span> <span className="text-slate-300 text-[15px] ">132/148 ABA express way Porthacourt Nigeria</span></p>
+         <p className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full font-bold"><GoLocation className="text-[25px] text-slate-50  " /></span> <span className="text-slate-300 text-[15px] ">132/144 ABA express way Porthacourt Nigeria</span></p>
          <p><a href="tel:+2347068622370" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full text-slate-50 font-bold"><FiPhoneCall className="text-[25px]  "/></span> <span className="text-slate-300 text-[15px] ">+234 706 8622 370</span></a></p>
          <p><a href="mailto:lorddube@gmail.com" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full font-bold"><AiOutlineMail className="text-[25px] text-slate-50  "/></span> <span className="text-slate-300 text-[15px] ">lorddube@gmail.com</span></a></p>
        </div>
