@@ -49,7 +49,7 @@ export const HeroSection = () => {
        <h2></h2>
        <p className="text-slate-100 wrap text-[20px] font-fonty md:text-[25px] ">Welcome to <strong className="text-white font-bold capitalize">Lorddube logistics energy.co</strong>, your trusted Your Reliable Source for High-Quality Oil and Gas Tools.</p>
        <div className="my-3 flex flex-row gap-5">
-<Link to='/contact' className="bg-slate-50 p-2 hover:bg-yellow-500 text-[20px] font-myfont text-slate-900 rounded shadow-2xl ">Contact Us</Link> 
+<Link to='/contact' className="bg-slate-50 p-2 hover:bg-pink-500 text-[20px] font-myfont text-slate-900 rounded shadow-2xl ">Contact Us</Link> 
 <Link to='/service' className="border hover:bg-black p-2 text-[20px] font-myfont text-slate-50 rounded shadow-2xl ">Read More</Link> 
        </div>
         </div>

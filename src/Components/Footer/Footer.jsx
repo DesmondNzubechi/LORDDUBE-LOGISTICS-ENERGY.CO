@@ -26,7 +26,7 @@ export const Footer = () => {
               <img src={logo} alt="" className=" rounded " srcset="" />
               </div>
               <div>
-         <p className="text-slate-200 text-[12px] pt-[20px] max-w-[400px]">Our team of experts is comprised of seasoned professionals with extensive knowledge and experience in the oil and gas sector. They are always ready to assist you in finding the right tnools for your specific needs. Whether you require advice on selecting the ideal equipment, assistance with technical specifications, or guidance on industry best practices, our knowledgeable staff is here to support you every step of the way.
+         <p className="text-slate-200 text-[12px] pt-[20px] max-w-[400px]">Our team of experts is comprised of seasoned professionals with extensive knowledge and experience in the oil and gas sector. They are always ready to assist you in finding the right tools for your specific needs. Whether you require advice on selecting the ideal equipment, assistance with technical specifications, or guidance on industry best practices, our knowledgeable staff is here to support you every step of the way.
 
          {/*
               <div>
@@ -44,7 +44,7 @@ export const Footer = () => {
              </div>
          </div>
                 <div className="flex flex-col gap-2">
-       <h1 className="text-slate-100 font-bold text-[25px]">Contact In<span className="text-pink-500">fomation</span></h1>
+       <h1 className="text-slate-100 font-bold text-[25px]">Contact In<span className="">fomation</span></h1>
          <p className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full font-bold"><GoLocation className="text-[25px] text-slate-50  " /></span> <span className="text-slate-300 text-[15px] ">132/144 ABA express way Porthacourt Nigeria</span></p>
          <p><a href="tel:+2347068622370" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full text-slate-50 font-bold"><FiPhoneCall className="text-[25px]  "/></span> <span className="text-slate-300 text-[15px] ">+234 706 8622 370</span></a></p>
          <p><a href="mailto:lorddube@gmail.com" className="flex flex-row items-center gap-3 my-2"><span className=" p-2 rounded-full font-bold"><AiOutlineMail className="text-[25px] text-slate-50  "/></span> <span className="text-slate-300 text-[15px] ">lorddube@gmail.com</span></a></p>
@@ -66,8 +66,8 @@ export const Footer = () => {
        <hr />
       
           <div className="flex md:flex-row flex-col gap-3 items-center justify-around mt-[20px]">
-       {  /*   <p className="flex flex-row items-center gap-1 text-slate-400 text-[12] md:text-[18px]">Website built by <a className="uppercase font-bold text-white " href="https://home-decor-by-nzubechukwu.vercel.app/">Nzubechukwu</a> </p>*/}
-            <p className="md:text-[20px] text-[15px] text-slate-400">&copy; Lorddube Logistic Energy.Co 2023</p>
+       {    <p className="flex flex-row items-center gap-1 text-slate-400 text-[12] md:text-[18px]">Website built by <a className="uppercase font-bold text-slate-500 " href="https://nzubechukwu.com">Nzubechukwu-Tech</a> </p>}
+            <p className="md:text-[20px] text-[15px] text-slate-50">&copy; Lorddube Logistics Energy.Co 2023</p>
           </div>
         </footer>
     )

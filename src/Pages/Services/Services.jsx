@@ -24,7 +24,7 @@ const  servicesArray = [
     },
     {
         heading: 'Electrical Equipment',
-        description: 'Electrical components play a crucial role in any industry. At Lorddube Logistic Energy, Co, we supply high-quality electrical equipment such as cables, connectors, switches, circuit breakers, transformers, and control panels. Additionally, we offer power distribution solutions to ensure safe and efficient electrical supply.',
+        description: 'Electrical components play a crucial role in any industry. At Lorddube Logistics Energy, Co, we supply high-quality electrical equipment such as cables, connectors, switches, circuit breakers, transformers, and control panels. Additionally, we offer power distribution solutions to ensure safe and efficient electrical supply.',
         img: electical,
 
     },
